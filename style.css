@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+
+/* 공통 */
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+.space{clear:both}
+
+.wrap{width: 1920px; margin: 0 auto;}
+.body{overflow-x: hidden;}
+
+/* 헤드부분 */
+.header{padding: 20px 0; background-color: #023586;}
+.logo{width: 150px; height: 20px; float: left; padding: 20px 50px;}
+.menu{width: 850px; height: 20px; float: right; padding: 20px 0; color: #fff;}
+.menu li{width: 130px; float: left;  text-align: center;}
+.menu{font-family: 'Noto Sans KR', sans-serif;}
+
+/* 메인이미지 부분 */
+.mainimg{width: 1920px; height: 449px; background-image: url(images/mainimg.jpg);}
+
+/* 콘텐츠 부분 */
+h3{font: 36px 'Noto Sans KR', sans-serif;}
+p{font: 13px; line-height: 25px; font-weight: 400;}
+.box1{width: 1920px; height: 711px; background-image: url(images/contents1.jpg);}
+.box2{width: 1920px; height: 523px; background-color: #023586;}
+.box2 div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box2 div img{padding: 20px 0;}
+.box3{width: 1920px; height: 639px;}
+.box3 div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box3 div img{padding: 30px 0;}
+.box3_left{width: 50%; height: 639px; background-color: #102240; float: left;}
+.box3_right{width: 50%; height: 639px; background-color: #000e23; float:right;}
+.box4{width: 1920px; height: 639px;}
+.box4 div img{padding: 30px 0;}
+.box4 div{width: 50%; margin: 0 auto; text-align: center; padding-top: 100px; color: #fff;}
+.box4_left{width: 50%; height: 639px; background-color: #072452; float: left;}
+.box4_right{width: 50%; height: 639px; background-color: #1d365f; float:right;}
+
+/* 푸터 부분 */
+.footer{width: 1920px; height: 171px; background-color: #454a56;}
+.copyright{text-align: center; padding: 30px 0; color: #9c9596;}
+.sns{width: 200px; margin: 0 auto; padding: 10px;}
+.sns li{float: left; text-align: center; margin: 0 5px;}
